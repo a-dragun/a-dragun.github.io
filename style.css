@@ -1,6 +1,8 @@
 /* Opći stilovi */
 body {
-    background-image: url("https://images.unsplash.com/photo-1595769816263-9b910be24d5f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW92aWUlMjB0aGVhdGVyfGVufDB8fDB8fHww");
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1595769816263-9b910be24d5f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW92aWUlMjB0aGVhdGVyfGVufDB8fDB8fHww");
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,7 +12,9 @@ body {
 
 @media (min-width: 4000px) {
   body {
-      background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW1wdHklMjB0aGVhdGVyfGVufDB8fDB8fHww");
+      background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW1wdHklMjB0aGVhdGVyfGVufDB8fDB8fHww");
   }
 }
 
