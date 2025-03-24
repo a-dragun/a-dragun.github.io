@@ -140,7 +140,7 @@ a.image-popup-vertical-fit {
 .galerija_slika img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 10px; /*Ovaj dio je dodan: zaobljeni rubovi slika*/
   transition: transform 0.3s ease;
 }
 
@@ -148,6 +148,8 @@ a.image-popup-vertical-fit {
   transform: scale(1.03);
 }
 
+
+/*Ovaj dio je dodan: blago zatamnjenje pomoću overlaya i naziv slike prilikom hovera na sliku*/
 .overlay {
   position: absolute;
   top: 0;
