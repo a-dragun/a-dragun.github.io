@@ -17,7 +17,7 @@ body {
 
 /* Header i navigacija */
 header {
-  background: #222;
+  background: transparent;
   color: white;
   padding: 20px;
 }
@@ -260,4 +260,11 @@ a.image-popup-vertical-fit {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .menu {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
   }
